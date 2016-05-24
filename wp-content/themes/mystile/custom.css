@@ -1,0 +1,410 @@
+/* CSS Document */
+
+/* 
+WOO CUSTOM STYLESHEET
+---------------------
+
+Instructions:
+
+Add your custom styles in this file instead of style.css so it 
+is easier to update the theme. Simply copy an existing style 
+from style.css to this file, and modify it to your liking. */
+
+
+/* 
+GLOBAL STYLES
+----------------
+Add styles beneath this line that you want to be applied across your entire site */
+
+
+/* 
+DESKTOP STYLES
+-----------------
+Add styles inside the media query below that you only want to be applied to the desktop layout of your site */
+
+@media screen and (max-device-width: 639px) {
+  .type-page {
+    margin: 0em 0em;
+}
+div.ppt {
+display: none !important;
+}
+.button.single_add_to_cart_button {
+position: absolute;
+margin: 0 23%;
+}
+} /* end of mobile css --*/
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif; 
+}
+@media only screen and (min-width: 640px){
+
+#header {
+  padding-bottom: 0em;
+  padding-top: 1.4em;
+}
+#header hgroup {
+  margin-bottom: 0em;
+}
+.home header h1{
+  display:none; 
+}
+#header .site-description{
+display: inline-block;
+padding: 4% 0 1% 451px;
+line-height: 1em;
+color: #656363;
+}
+#header hgroup {
+  float: left;
+  width: 100%;
+}
+#header {
+  border-bottom: none;
+}
+#header #logo {
+  float: left;
+  margin-bottom: 0px;
+  width: 10%;
+  margin: -3% 45%;
+  height: 114px;
+}
+#header #navigation {
+  float: left;
+  width:100%;
+  text-align: center;
+}
+#header #navigation ul.nav {
+ width: 89%;
+text-transform: uppercase;
+}
+#header #navigation ul.nav li a{
+     color: #000 !important;
+       font-weight: 500;  
+         border: none;
+}
+ul.nav li a {
+display: block;
+padding: .1em 1em;
+}
+#navigation {
+  clear: both;
+  margin-bottom: 1em;
+}
+#breadcrumbs {
+  display: none;
+  margin: 0 1em;
+  padding: 1em;
+}
+.slideshow_container {
+  margin: 0 auto !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-weight: 100;
+}
+h1 {
+font-size: 1.65em;
+line-height: 1.87em;
+}
+.single-product .summary .price:first-child{
+font-size: 1.3em;
+}
+p{
+  font-size: 1em;
+}
+.entry h4{
+  margin: 2% 0% 1%;
+  font-size: 1.2em;
+}
+.layout-full #main {
+width: 100%;
+max-width: 1030px;
+}
+div.woocommerce.columns-4{
+  width: 1030px;
+margin: 3% auto 0;
+}
+.product {
+  z-index: 7;
+}
+.reset_variations{
+	display:none !important;
+	}
+.woocommerce-tabs.wc-tabs-wrapper{
+display: none;
+}
+#header #navigation ul.nav > li a:hover {
+color: #36BFB7!important;
+}
+/* }  end of desktop ------- */
+.button.single_add_to_cart_button{
+	position: absolute;
+	margin: -9px 0 0 -48px;
+}
+input.button, button.button.alt, button.button, a.button, a.comment-reply-link, #commentform #submit, .submit, input[type=submit], input.button, button.button{
+font-family: "Open Sans", sans-serif !important; 
+background-color: #53bab9 !important;
+background-image: none !important;
+	padding: .236em .857em;
+color: #2A2727 !important;
+text-align: center;
+text-decoration: none;
+font-size: 1em;
+font-family: inherit;
+cursor: pointer;
+overflow: visible;
+width: auto;
+line-height: 1.618em;
+margin: 0 .327em;
+-webkit-font-smoothing: subpixel-antialiased;
+font-weight: 100;
+text-shadow: 0 1px 0;
+background-color: #fff;
+background-image: none;
+border:none !important;
+-webkit-border-radius: 0.502em;
+border-radius: 0.502em;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+-webkit-box-shadow:none;
+box-shadow: none;
+}
+.button, a.button:hover, a.comment-reply-link:hover, #commentform #submit:hover, .submit:hover, input[type=submit]:hover, input.button:hover, button.button:hover{
+	color: #ff5f9e !important;
+	}
+.woocommerce_message, .woocommerce-message, .woocommerce_error, .woocommerce-error {
+border-color: #D9DFD1;
+width: 90%;
+}
+.images img {
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E6E6E6;
+    padding: 0.618em;
+    width: inherit;
+}
+ul.products li.product img {
+    -moz-box-sizing: border-box;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E6E6E6;
+    display: block;
+    height: auto;
+    margin: 0 auto 1em;
+    padding: 0.53em;
+    width: inherit;
+}
+#top .wc-nav {
+    margin: 0px 76px 0;
+    width: 430px;
+}
+#top .wc-nav li.search input {
+padding: 2px 6px 2px 6px;
+text-align: center;
+width: 140px;
+margin: 0 0 0 16px;
+}
+.woocommerce-ordering {
+margin: 0px 8px;
+}
+#main {
+margin: 0 14%;
+}
+div.ppt {
+display: none !important;
+}
+a:hover, a:hover h3, .post-more a:hover, .post-meta a:hover, .post p.tags a:hover {
+color: #ff5f9e !important;
+}
+
+.images .thumbnails a img {
+border: 0;
+display: block;
+margin: 0 auto;
+opacity: 0.7;
+filter: alpha(opacity=@opacity * 100);
+width: 103px;
+}
+
+/* Logo shift */
+#header #logo {
+    width: 10%;
+    margin: -4% 0 -11% 40px;
+}
+#header .site-description {
+    display: none;
+}
+.images .thumbnails {
+border: none;
+width: 108px;
+position: absolute;
+}
+.woocommerce-main-image {
+float: left;
+margin: 0 0 0 123px;
+}
+.images .thumbnails a {
+display: block;
+width: 70%;
+float: left;
+}
+.single-product .summary {
+  width: 38%;
+float: left;
+text-align: center;
+margin: 0em 0 0 3.5em;
+}
+.variations_form {
+      width: 84%;
+    text-align: center;
+    margin: 0 4em 2em;
+}
+.single-product .summary .price:first-child {
+    font-weight: normal;
+}
+.description{
+font-size: 0.95em;
+line-height: 1.85em;
+margin: 20px 0 0;
+}
+.variations{
+ width: 58%;
+margin: 1.51em 1em;
+    }
+.variations td{
+      border-bottom: none;
+    }
+.single_variation_wrap{
+ width: 53%;
+margin: 2em 0em;
+}
+#main table td {
+padding: 0.5em 1em;
+}
+
+}  /* end of media query for desktop */
+
+/*-- ------------Mobile Portrait and Landscape -------- ----------------------------------------------- (iphonez) */
+@media only screen and (min-device-width: 320px) 
+  and (max-device-width: 736px)
+/*  and (-webkit-min-device-pixel-ratio: 2) */
+   {
+body {}
+
+#top .wc-nav li.search input {
+display: none;
+}
+  #header #navigation ul {
+        z-index: 9876;
+    position: relative;
+    margin:0px;
+  }
+#top {
+float: left;
+width: 22%;
+    background: #f7f7f7;
+    margin: 0 -0.80em;
+    padding: 0.8em;
+}
+#header{ 
+width: 41%;
+display: inline;
+position: relative;
+margin: 0em 0 0 0em;
+border: none;
+   }
+   #main header{ 
+  display: none;
+   }
+#header hgroup {
+position: relative;
+margin-bottom: 0.01em;
+}
+.slideshow_container{
+      margin: 1em 0 !important;
+max-height: 168px;
+overflow: hidden; 
+}
+
+#header .nav-toggle a mark {
+color: #030303;
+}
+#header .nav-toggle {
+-webkit-box-shadow: none;
+margin-top: 0em;
+background-color: #Fff;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#ff4800), to(#ee3700));
+background-image: -webkit-linear-gradient(top, #ff4800, #ee3700);
+background-image: -moz-linear-gradient(top, #ff4800, #ee3700);
+background-image: -ms-linear-gradient(top, #ff4800, #ee3700);
+background-image: -o-linear-gradient(top, #ff4800, #ee3700);
+background-image: linear-gradient(to bottom, #FFFFFF, #FFFFFF);
+border: 0.202em solid #FFFFFF;
+}
+#header #logo {
+width: 38%;
+margin: 0.4em 0 0 2.6em;
+display: block;
+height: 60px;
+}
+ul.products li.product h3{
+	font-size: 1.2em;
+}
+#main h1.product_title {
+font-size: 1.2em;
+}
+ .woocommerce-result-count, .woocommerce-ordering {
+display: none;
+}
+table td {
+border-bottom: none;
+}
+
+    } /* --- end of mobile style ----------------------------------------------------------------------------------------*/
+/* Hide product meta data*/
+.single-product .summary .product_meta {
+    text-indent: -9876px;
+        border-top: none;
+  }
+div.summary.entry-summary ul{
+text-align: left;
+margin: 0 26%;
+}
+.quantity{
+	display:none;
+	}
+
+/* Hide blog date post and user icon */
+.type-page {
+margin: 0 0 0.6em;
+}
+.type-post .meta {
+    display: none;
+}
+.type-post .post-content {
+    width: 96%;
+    float: left;
+}
+
+/* change nav  size and location
+@media only screen and (min-width: 640px) */
+ @media only screen and (min-width: 640px)
+ {
+ #header #navigation ul.nav {
+margin: 0 -6%;
+width: 89%;
+font-size: 0.9em;
+}
+}
+#main h1 {
+display: none;
+}
+#main h1.product_title{
+display: block;
+}
+#top, body, #header #navigation ul.nav li a{
+    background: #fff;
+}
+}
